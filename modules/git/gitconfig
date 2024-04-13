@@ -1,0 +1,18 @@
+[user]
+	name = Raphael Vasseur
+	email = raphael.vasseur@loungeup.com
+
+[github]
+  user = rvasseur31
+
+[alias]
+  aliases = config --get-regexp ^alias\\.
+  s = status -sb
+  st = status
+  c = commit
+  amend = !git commit --amend --no-edit --date=\"$(date +%s)\"
+  co = checkout
+  sw = switch
+  rs = restore
+  rb = rebase
+  b = branch
